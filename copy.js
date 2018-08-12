@@ -9,6 +9,7 @@ const Creator = require('./objects/creator');
 const Logger = require('./objects/logger');
 const settings = require('./settings.json');
 const client = new Discord.Client();
+ 
 
 let isBackup = false;
 let isRestore = false;
